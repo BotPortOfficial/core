@@ -4,12 +4,11 @@
 		<img src="https://raw.githubusercontent.com/BotPortOfficial/tickets/main/.github/workflows/banner.png" width="546" alt="BotPort Tickets" />
 	</p>
 	<p>
-	<a href="https://discord.gg/sRyU4GFraG">
-  <img src="https://img.shields.io/discord/1383201315072639058?label=Discord&logo=discord&style=flat-square&color=7289DA" alt="Discord">
 </a>
 </p>
 	<br />
 	<p>
+	    <a href="https://discord.gg/sRyU4GFraG"><img src="https://img.shields.io/discord/1383201315072639058?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
 		<a href="https://github.com/BotPortOfficial/tickets"><img src="https://img.shields.io/github/last-commit/BotPortOfficial/tickets?logo=github&logoColor=white&style=flat-square" alt="Last commit" /></a>
 		<a href="https://www.npmjs.com/package/tickets"><img src="https://img.shields.io/npm/v/tickets?maxAge=3600&style=flat-square" alt="NPM version" /></a>
 		<a href="https://github.com/BotPortOfficial/tickets/actions"><img src="https://github.com/BotPortOfficial/tickets/actions/workflows/publish.yml/badge.svg?style=flat-square" alt="CI Status" /></a>
@@ -40,26 +39,9 @@ npm install tickets
 yarn add tickets
 ```
 
-## 🔧 Usage
-
-This package is intended for use within BotPort's Discord bot framework. For implementation details, please refer to our internal documentation.
-
-```javascript
-const tickets = require('tickets');
-// Implementation specific to BotPort bots
-```
-
-## 📊 Stats
-
-<div align="center">
-	<img src="https://img.shields.io/github/stars/BotPortOfficial/tickets?style=social" alt="GitHub stars" />
-	<img src="https://img.shields.io/github/forks/BotPortOfficial/tickets?style=social" alt="GitHub forks" />
-	<img src="https://img.shields.io/github/watchers/BotPortOfficial/tickets?style=social" alt="GitHub watchers" />
-</div>
-
 ## 📄 License
 
-This project is licensed under the MIT licence. https://github.com/BotPortOfficial/tickets/blob/main/LICENSE
+This project is licensed under the [MIT licence](https://github.com/BotPortOfficial/tickets/blob/main/LICENSE).
 
 ---
 
