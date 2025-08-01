@@ -31,7 +31,8 @@
     "chalk": "^5.3.0",
     "dotenv": "^16.3.1",
     "mysql2": "^3.6.0",
-    "@npmcli/arborist": "^9.1.2"
+    "@npmcli/arborist": "^9.1.2",
+    "latest-version": "9.0.0"
   },
   "peerDependencies": {
     "discord.js": "^14.0.0"
