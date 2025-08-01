@@ -1,0 +1,113 @@
+{
+  "name": "@botport/tickets",
+  "version": "2.0.4",
+  "description": "Unified framework for Discord bot products, published by BotPort. Combines docky and framework functionality.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "author": "RiktigaTomten",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "bot",
+    "framework",
+    "mysql",
+    "database",
+    "interaction-handler",
+    "tickets",
+    "unified"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BotPortOfficial/tickets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BotPortOfficial/tickets/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.0",
+    "@npmcli/arborist": "^9.1.2"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/database/db": {
+      "import": "./lib/database/db.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/handlers/errors": {
+      "import": "./lib/handlers/errors/main.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/handlers/interactions": {
+      "import": "./lib/handlers/interactions/interactions.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/logger": {
+      "import": "./lib/logger/logger.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/essentials/banner": {
+      "import": "./lib/essentials/banner.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/bot/setup": {
+      "import": "./lib/bot/setup.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/config/environment": {
+      "import": "./lib/config/environment.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/loaders/commandLoader": {
+      "import": "./lib/loaders/commandLoader.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/loaders/eventLoader": {
+      "import": "./lib/loaders/eventLoader.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/loaders/addonLoader": {
+      "import": "./lib/loaders/addonLoader.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/registration/commandRegistration": {
+      "import": "./lib/registration/commandRegistration.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/registration/memberRegistration": {
+      "import": "./lib/registration/memberRegistration.js",
+      "types": "./index.d.ts"
+    },
+    "./lib/utils/fileUtils": {
+      "import": "./lib/utils/fileUtils.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "echo 'No build step required for ES modules'",
+    "test": "echo 'No tests specified'",
+    "prepublishOnly": "npm run build",
+    "release:patch": "npm version patch && git push --follow-tags",
+    "release:minor": "npm version minor && git push --follow-tags",
+    "release:major": "npm version major && git push --follow-tags",
+    "release": "npm run release:patch"
+  }
+}
