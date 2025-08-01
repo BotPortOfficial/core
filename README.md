@@ -31,11 +31,11 @@
 ## 📦 Installation
 
 ```bash
-npm install tickets
+npm install @botport/tickets
 ```
 
 ```bash
-yarn add tickets
+yarn add @botport/tickets
 ```
 
 ## 📄 License
