@@ -109,6 +109,6 @@
     "release:minor": "npm version minor && git push --follow-tags",
     "release:major": "npm version major && git push --follow-tags",
     "release": "npm run release:patch",
-    "release-all": "git add . && git commit -m \"New Update\" && npm run release:patch && npm publish --access public"
+    "release-all": "node release.js"
   }
 }
