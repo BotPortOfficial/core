@@ -1,6 +1,6 @@
 {
   "name": "@botport/core",
-  "version": "2.0.25",
+  "version": "2.0.26",
   "description": "Unified framework for Discord bot products, published by BotPort.",
   "main": "index.js",
   "types": "index.d.ts",
