@@ -1,7 +1,7 @@
 {
   "name": "@botport/tickets",
   "version": "2.0.25",
-  "description": "Unified framework for Discord bot products, published by BotPort. Combines docky and framework functionality.",
+  "description": "Unified framework for Discord bot products, published by BotPort.",
   "main": "index.js",
   "types": "index.d.ts",
   "type": "module",
